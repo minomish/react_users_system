@@ -1,0 +1,114 @@
+.wrapper {
+  width: 84vw;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 32px;
+  color: #333;
+  margin: 10px;
+}
+/* 
+.btn{
+  width: 12vw;
+  background: #000;
+  color: #fff; 
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.searchBar input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  color: #333;
+  caret-color: #333;
+}
+
+.searchBar input::placeholder{
+  color: #b5b3b3;
+}
+
+.btn {
+  font-size: 14px;
+  font-family: "Geneva";
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead th {
+  text-align: center;
+  padding: 15px;
+  /* background-color: #f0d6d8; */
+  background-color: #eab9fc;
+  color: #333;
+  font-weight: bold;
+}
+
+.table tbody td {
+  padding: 15px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+
+.actionIcons{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@media (max-width: 1060px){
+  .table{
+    overflow-x: auto;
+    display: block;
+
+  }
+}
+
+@media(max-width: 800px) {
+  .wrapper{
+    margin-top: 20px;
+  }
+}
+
+
+@media(max-width: 550) {
+  .btn{
+    font-size: 12px;
+  }
+}
+
