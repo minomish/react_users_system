@@ -20,7 +20,6 @@ function App() {
   
   const [users, setUsers] = useState(localStorageData)
   const [isEditing, setIsEditing] = useState(false)
-  // const [editingUser, setEditingUser] = useState()
 
   const onDeleteUser = (id) => {
     Modal.confirm({
